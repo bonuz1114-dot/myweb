@@ -3,6 +3,5 @@ const text = document.getElementById("Hi");
 
 function clickItem() {
     let name = inputDOM.value;
-
     text.textContent = name
 }

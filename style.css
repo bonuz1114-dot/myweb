@@ -1,16 +1,29 @@
 body{
     background-color: rgb(49, 49, 49);
     color: white;
-    font-size: 50px;
+    font-size: 16px;
     font-family: Arial;
 
     display: flex;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 #button{
     padding: 10px;
     background-color: gray;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
+}
+
+.contain{
+    background-color: rosybrown;
+    padding: 10px;
+    border-radius: 12px;
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }

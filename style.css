@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(49, 49, 49);
+    color: white;
+    font-size: 50px;
+    font-family: Arial;
+
+    display: flex;
+    text-align: center;
+}
+
+#button{
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+}

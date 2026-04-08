@@ -1,7 +1,11 @@
-const inputDOM = document.getElementById("firstname");
-const text = document.getElementById("Hi");
+const UserName = document.getElementById("username");
+const PassWord = document.getElementById("password");
+const MyButton = document.getElementById("button");
+const Output = document.getElementById("output");
 
-function clickItem() {
-    let name = inputDOM.value;
-    text.textContent = name
-}
+MyButton.addEventListener("click" , () => {
+    const usename = UserName.value;
+    const password = PassWord.value;
+    console.log(usename,password);
+    Output.textContent = usename 
+})
